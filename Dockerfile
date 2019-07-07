@@ -6,7 +6,7 @@ ARG mirror=http://us.mirrors.quenda.co/apache/spark/
 
 RUN apt-get update \
     && apt-get install -y scala \
-    && wget $mirror/$spark/$spark_hdp.tgz -O /$spark_hdp.tgz \
+    && curl $mirror/$spark/$spark_hdp.tgz -o /$spark_hdp.tgz \
     && tar -zxvf /$spark_hdp.tgz -C /opt/ \
     && rm /$spark_hdp.tgz
 
