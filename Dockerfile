@@ -10,5 +10,5 @@ RUN apt-get update \
     && tar -zxvf /$spark_hdp.tgz -C /opt/ \
     && rm /$spark_hdp.tgz
 
-RUN pip3 install toree \
+RUN pip3 install toree pyspark findspark \
     && jupyter toree install --spark_home=/opt/$spark_hdp/
