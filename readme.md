@@ -47,15 +47,15 @@ docker run -d \
     -v `dirname $HOME`:/home_host \
     dclong/jupyterhub-toree
 ```
+## [Use the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#use-the-jupyterhub-server)
+
+## [Add a New User to the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#add-a-new-user-to-the-jupyterhub-server)
+
 ## [Use Spark in JupyterLab Notebook Using Apache Toree](http://www.legendu.net/en/blog/my-docker-images/#use-spark-in-jupyterlab-notebook-apache-toree)
 
 ## [Use PySpark in JupyterLab Notebook Using pyspark and findspark](http://www.legendu.net/en/blog/my-docker-images/#use-pyspark-in-jupyterlab-notebook-pyspark-and-findspark)
 
 ## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
-
-## [Use the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#use-the-jupyterhub-server)
-
-## [Add a New User to the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#add-a-new-user-to-the-jupyterhub-server)
 
 ## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
 
