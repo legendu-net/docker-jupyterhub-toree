@@ -1,6 +1,6 @@
 # dclong/jupyterhub-toree [@DockerHub](https://hub.docker.com/r/dclong/jupyterhub-toree/) | [@GitHub](https://github.com/dclong/docker-jupyterhub-toree)
 
-JupyterHub with Spark via Apache Toree (Scala/Spark) and pyspark/findspark (PySpark).
+JupyterHub with Spark via Apache Toree (for Scala/Spark) and pyspark/findspark (for PySpark).
 **It is suggested that you use [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)
 for data science related work.**
 
