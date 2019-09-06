@@ -1,6 +1,6 @@
 FROM dclong/jupyterhub-jdk
 
-ARG spark=spark-2.4.3
+ARG spark=spark-2.4.4
 ARG spark_hdp=$spark-bin-hadoop2.7
 ARG mirror=http://us.mirrors.quenda.co/apache/spark/
 ENV SPARK_HOME=/opt/$spark_hdp
