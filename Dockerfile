@@ -13,4 +13,5 @@ RUN apt-get update \
     && rm /$spark_hdp.tgz
 
 RUN pip3 install toree pyspark findspark \
+        optimuspyspark \
     && jupyter toree install --spark_home=$SPARK_HOME
