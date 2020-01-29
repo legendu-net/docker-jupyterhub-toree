@@ -4,6 +4,9 @@ JupyterHub with Spark via Apache Toree (for Scala/Spark) and pyspark/findspark (
 **It is suggested that you use [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)
 for data science related work.**
 
+## Prerequisite
+You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
+
 
 ## Usage in Linux/Unix
 
