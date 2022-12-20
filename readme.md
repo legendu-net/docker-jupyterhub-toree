@@ -1,8 +1,14 @@
 # dclong/jupyterhub-toree [@DockerHub](https://hub.docker.com/r/dclong/jupyterhub-toree/) | [@GitHub](https://github.com/dclong/docker-jupyterhub-toree)
 
 JupyterHub with Spark via Apache Toree (for Scala/Spark) and pyspark/findspark (for PySpark).
-**It is suggested that you use [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)
-for data science related work.**
+<span style="color:red">
+This Docker image is no longer maintained.
+</span>
+Please refer to 
+[Recommended Docker Images](http://www.legendu.net/en/blog/my-docker-images/#recommended-docker-images) 
+for alternatives.
+
+## [Recommended Docker Images](http://www.legendu.net/en/blog/my-docker-images/#recommended-docker-images) 
 
 ## Prerequisite
 You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
